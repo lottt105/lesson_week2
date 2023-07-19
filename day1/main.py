@@ -45,12 +45,51 @@
 # find_love = "I love lyou"
 # print(find_love.find("love"))
 
-quote = "Life if too short"
-print(quote.replace("too", "very"))
-print(quote.replace("o", "0"))
-print(quote.split())
+# quote = "Life if too short"
+# print(quote.replace("too", "very"))
+# print(quote.replace("o", "0"))
+# print(quote.split())
 
-split_str = "a:b:c:d"
-print(split_str.split(":"))
-split_a = "Iaknowasplit"
-print(split_a.split("a"))
+# split_str = "a:b:c:d"
+# print(split_str.split(":"))
+# split_a = "Iaknowasplit"
+# print(split_a.split("a"))
+
+# a = [1, 2, 3, 4, 5]
+# a[2] = 6
+# print(a)
+
+# del a[2]
+# print(a)
+
+# del a[2:]
+# print(a)
+
+# a.extend(['3', '4', '5'])
+# print(a)
+
+# a.append(6)
+# print(a)
+
+# b = [1, 4, 3, 2, 5]
+# b.sort()
+# print(b)
+
+# b.reverse()
+# print(b)
+
+# b.insert(0, 0)
+# print(b)
+
+# c = [4, 5, 6, 4, 5, 6]
+# c.remove(6)
+# print(c)
+
+# print(c.pop())
+# print(c)
+
+# print(c.count(6))
+
+a = ["A", "B", "c", "D", "e"]
+print(sorted(a))
+
