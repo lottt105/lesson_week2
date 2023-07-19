@@ -125,4 +125,11 @@
 # s1.add(4)
 # print(s1)
 
-score = input("점수가 몇 점인가요?")
+my_list = ['a', 'b', 'c', 'd']
+for i in range(len(my_list)):
+  print(my_list[i])
+  
+def say_hello(name):
+  print('hello', name)
+  
+say_hello("Mike")
