@@ -23,3 +23,7 @@ print(colors)
 # 6. 리스트 - 특정 문자 추가하고 출력
 colors.insert(1, "pink")
 print(colors)
+
+# 7. 딕셔너리 - 키에 해당하는 값 출력
+a = {'A': 90, 'B': 80, 'C': 70, 'D': 60}
+print(a['B'])

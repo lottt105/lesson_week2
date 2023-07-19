@@ -90,6 +90,27 @@
 
 # print(c.count(6))
 
-a = ["A", "B", "c", "D", "e"]
-print(sorted(a))
+# a = ["A", "B", "c", "D", "e"]
+# print(sorted(a))
 
+d = {'name': 'bin', 'birth':'0601'}
+print(d['name'])
+print(d.get('name'))
+print(d.get('phone'))
+print(d.get('phone', 'value is not'))
+for k in d.keys():
+  print(k)
+
+print('name' in d)
+print('phone' in d)
+
+# d.clear()
+# print(d)
+
+print(d.keys())
+print(d.values())
+print(d.items())
+for key, value in d.items():
+  print("key:", key)
+  print("value:", value)
+  
