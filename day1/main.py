@@ -93,24 +93,34 @@
 # a = ["A", "B", "c", "D", "e"]
 # print(sorted(a))
 
-d = {'name': 'bin', 'birth':'0601'}
-print(d['name'])
-print(d.get('name'))
-print(d.get('phone'))
-print(d.get('phone', 'value is not'))
-for k in d.keys():
-  print(k)
+# d = {'name': 'bin', 'birth':'0601'}
+# print(d['name'])
+# print(d.get('name'))
+# print(d.get('phone'))
+# print(d.get('phone', 'value is not'))
+# for k in d.keys():
+#   print(k)
 
-print('name' in d)
-print('phone' in d)
+# print('name' in d)
+# print('phone' in d)
 
-# d.clear()
-# print(d)
+# # d.clear()
+# # print(d)
 
-print(d.keys())
-print(d.values())
-print(d.items())
-for key, value in d.items():
-  print("key:", key)
-  print("value:", value)
+# print(d.keys())
+# print(d.values())
+# print(d.items())
+# for key, value in d.items():
+#   print("key:", key)
+#   print("value:", value)
   
+s1 = set([1, 2, 3, 1, 2, 3])
+s2 = set([3, 4, 5, 3, 4, 5])
+# 교집합
+print(s1 & s2, s1.intersection(s2))
+# 합집합
+print(s1 | s2, s1.union(s2))
+# 차집합
+print(s1 - s2, s1.difference(s2))
+s1.add(4)
+print(s1)
