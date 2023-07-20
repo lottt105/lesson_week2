@@ -125,11 +125,11 @@
 # s1.add(4)
 # print(s1)
 
-my_list = ['a', 'b', 'c', 'd']
-for i in range(len(my_list)):
-  print(my_list[i])
+# my_list = ['a', 'b', 'c', 'd']
+# for i in range(len(my_list)):
+#   print(my_list[i])
   
-def say_hello(name):
-  print('hello', name)
+# def say_hello(name):
+#   print('hello', name)
   
-say_hello("Mike")
+# say_hello("Mike")
