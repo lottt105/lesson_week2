@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookList</title>
+  </head>
+  <body>
+    {% for book in object_list %}
+    <h1>{{book.id}}</h1>
+    <h3>{{book.name}} by {{book.author}}</h3>
+    <h3>Description: {{book.description}}</h3>
+    <h3>Price: {{book.price}}</h3>
+    <h3>Shipping Cost: {{book.shipping_price}}</h3>
+    <h3>Quantuty: {{book.quantity}}</h3>
+    <h1>-----------------------------------</h1>
+    {% endfor %}
+  </body>
+</html>
